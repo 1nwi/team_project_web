@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>koreanair</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
+
+    <link rel="stylesheet" href="css/main.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <!-- header -->
+        <header>
+            <div class="inner-header clearfix::after">
+                <h1 class="logo">
+                    <a href="#">
+                        <img src="images/logo.png" alt="메인로고이미지">
+                    </a>
+                </h1>
+                <nav class="gnb">
+                    <ul>
+                        <li><a href="#">예매</a></li>
+                        <li><a href="#">공항</a></li>
+                        <li><a href="#">기내</a></li>
+                        <li><a href="#">스카이패스</a></li>
+                    </ul>
+                </nav>
+                <nav class="tnb">
+                    <ul>
+                        <li><a href="#">로그인</a></li>
+                        <li><a href="#"><i class="fas fa-bell"></i></a></li>
+                        <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                        <li><a href="#"><i class="fas fa-search"></i></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <!-- //header -->
+
+
+        <!-- section.main -->
+        <section class="main clearfix">
+            <!-- main 이미지 영역 -->
+            <div class="main-title">
+                <img src="images/airline.jpg" alt="#">
+                <h2>대한항공, ATW 2021년 올해의 항공사 수상</h2>
+            </div>
+            <div class="select clearfix">
+                
+                <a href="#"><i class="fas fa-angle-left"></i></a>
+                <p>
+                    1 / 3
+                </p>
+                <a href=""><i class="fas fa-angle-right"></i></a>
+            </div>
+            <!-- 일반,보너스 예약 영역 -->
+            <div class="main-title-search clearfix">
+                <div class="main-booking-box">
+                    <h3 class="booking">
+                        <span>
+                            <button class="nomal-trip">
+                                <p>일반</p>
+                            </button>
+                            <button class="item-trip">
+                                <p>보너스</p>
+                            </button>
+                            <button class="booking-etc">
+                                <p><i class="fas fa-ellipsis-h"></i></p>
+                            </button>
+                        </span>
+                    </h3>
+                    <!-- 출발지 도착지 영역 -->
+                    <div class="booking-from-to">
+                        <nav>
+                            <button calss="from">
+                                <a href="#">SEL
+                                    <p>서울</p>
+                                </a>
+                            </button>
+                            <button>
+                                <a href="#">
+                                    <i class="fas fa-sync-alt"></i>
+                                </a>
+                            </button>    
+                            <button class="to">
+                                <a href="#">To
+                                    <p>도착</p>
+                                </a>
+                            </button>    
+                        </nav>
+                    </div>
+                    <!-- 예약정보 영역 -->
+                    <div class="booking-info">
+                        <nav>
+                            <button class="booking-date">
+                                <a href="#">탑승일<i class="far fa-calendar"></i></a>
+                            </button>
+                            <button class="booking-person">
+                                <a href="#">성인 1명<i class="far fa-user"></i></a>
+                            </button>
+                            <select class="seatclass">
+                                <option><a href="#">일반석<i class="fas fa-angle-down"></i></a></option>
+                                <option><a href="#">프레스티지석<i class="fas fa-angle-down"></i></a></option>
+                                <option>일등석<i class="fas fa-angle-down"></i></option>
+                            </select>
+                            <input type="checkbox"> 가까운 날짜 함께 조회
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 예약조회, 체크인, 항공편현황 영역 -->
+        <section class="main-navi">
+            <div class="main-navi-bar">
+                <ul>
+                    <li class="mnb-item"><a href="#"><i class="far fa-calendar-check"></i>예약 조회</a></li>
+                    <li class="mnb-item"><a href="#"><i class="far fa-check-square"></i>체크인</a></li>
+                    <li class="mnb-item"><a href="#"><i class="far fa-calendar-alt"></i>항공편 현황</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="recommand">
+
+            <div>지금 떠나기 좋은 여행</div>
+            <div class="recommand-booking">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <div class="imgbox">
+                                <img src="images/la.jpg" alt="">
+                                <div class="recommand-text">
+                                    서울/인천 - 로스앤젤레스
+                                    <p class="rt-return">일반선 왕복</p>
+                                    <p class="recommand-money">KRW 1,532,800 ~</p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="imgbox">
+                                <img src="images/ny.jpg" alt="">
+                                <div class="recommand-text">
+                                    서울/인천 - 뉴욕/존 F. 케네디
+                                    <p class="rt-return">일반선 왕복</p>
+                                    <p class="recommand-money">KRW 1,789,500 ~</p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="imgbox">
+                                <img src="images/honolulu.jpg" alt="">
+                                <div class="recommand-text">
+                                    서울/인천 - 호놀룰루
+                                    <p class="rt-return">일반선 왕복</p>
+                                    <p class="recommand-money">KRW 1,408,800 ~</p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="imgbox">
+                                <img src="images/guam.jpg" alt="">
+                                <div class="recommand-text">
+                                    서울/인천 - 괌
+                                    <p class="rt-return">일반선 왕복</p>
+                                    <p class="recommand-money">KRW 640,700 ~</p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="imgbox">
+                                <img src="images/bk.jpg" alt="">
+                                <div class="recommand-text">
+                                    서울/인천 - 방콕
+                                    <p class="rt-return">일반선 왕복</p>
+                                    <p class="recommand-money">KRW 729,600 ~</p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="columns">
+            <a href="#">
+                <div class="columns-main">
+                    <span class="columns-main-title">
+                        최저가 항공권 찾기
+                    </span>
+                    <p class="columns-main-text">
+                        최고의 서비스를 가장 합리적인 가격으로 이용할 수 있습니다.
+                    </p>
+                    <i class="far fa-hand-point-right"></i>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="columns-main">
+                    <span class="columns-main-title">
+                        이벤트 확인하기
+                    </span>
+                    <p class="columns-main-text">
+                        고객님을 위해 준비된 다채로운 혜택을 확인해보세요.
+                    </p>
+                    <i class="far fa-hand-point-right"></i>
+                </div>
+            </a>
+        </section>
+    </div>
+
+
+</body>
+
+</html>
