@@ -310,23 +310,30 @@ section.main-navi .main-navi-bar ul li {
 
 
 /* 지금 떠나기 좋은 여행 */
-
-.wrap .recommand > div {
-    float: left;
+.wrap .recommand {
     font-weight: 700;
     font-size: 30px;
+    margin: 25px;
+    padding-left: 20px;
+    width: 95%;
+}
+.wrap .recommand > div.recommand-trip {
     margin: 20px 0;
 }
-
+.wrap .recommand .recommand-booking ul {
+    padding: 0 auto;
+}
 .wrap .recommand .recommand-booking ul li{
     float: left;
     width: 18.4%;
     margin-right: 2%;
-    
+    border: 2px solid transparent;    
+    box-sizing: border-box;
     
 }
 .wrap .recommand .recommand-booking ul li:hover{
-    border: 3px solid #999;
+    border: 2px solid #999;
+    border-radius: 20px;
     box-sizing: border-box;
 }
 .wrap .recommand .recommand-booking ul li:last-child{
