@@ -18,7 +18,7 @@ button, input {
 }
 .wrap{
     font-size: 14px;
-    width: 85%;
+    width: 95%;
     /* margin: 0 auto; */
 }
 
@@ -96,7 +96,9 @@ header .inner-header .tnb li a:hover::after {
 } */
 /* section.main 영역 */
 section.main {
+    width: 100%;
     border-top: 1px solid #ddd;
+
     position: relative;
 }
 section.main .main-title {
@@ -131,13 +133,14 @@ section.main .select {
     background: rgba(0, 0, 0, 0.5);
     border-radius: 50px;
     padding: 0px 0px;
+    line-height: 40px;
 }
 section.main .select .button_select a {
     float: left;
     text-align: center;
     font-size: 15px;
     width: 25%;
-    height: 30px
+    height: 40px
 }
 section.main .select .button_select a:hover {
     border: 1px solid #000;
@@ -150,8 +153,10 @@ section.main .select .button_select p {
 section.main .select .button_select {
     width: 100%;
     position: absolute;
-    top: 70%;
+    top: 50%;
     left: 50%; 
+    height: 40px;
+    text-align: center;
     transform: translate(-50%, -50%);
 }
 section.main .select .button_select a:first-child {
@@ -287,32 +292,50 @@ section.main .main-title-search .booking-info nav select.seatclass {
     height: 50px;
     margin: 20px 10%;
     font-size: 18px;
+    background: rgba(0,0,0,0);
+    border: none;
     border-bottom: 1px solid #000;
+}
+section.main .main-title-search .booking-info nav select.seatclass:hover {
+    border: 1px solid #000;
 }
 section.main .main-title-search .booking-info .checkbox {
     width: 80%;
     height: 50px;
     margin: 20px 10%;
     font-size: 18px;
+    position: relative;
+
+}
+section.main .main-title-search .booking-info .checkbox:hover::after{
+    display: block;
+    content: '';
+    width: 15px;
+    height: 15px;
+    border: 1px solid rgba(0,0,102,0.8);
+    position: absolute;
+    top: 2px;
+    left: 2px;
 }
 section.main .main-title-search .booking-info .checkbox span {
     margin-left: 20px;
 }
 section.main-navi {
     width: 95%;
-    margin: 30px 30%;
+    margin: 40px 30px;
     padding: 40px;
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
     font-weight: 700;
 }
 section.main-navi .main-navi-bar ul li {
     float: left;
     padding: 0 auto;
-    margin-left: 90px;
-    
+    margin-left: 300px;
 }
-
+section.main-navi .main-navi-bar ul li:hover {
+    text-decoration: underline;
+}
 
 /* 지금 떠나기 좋은 여행 */
 .wrap .recommand {
@@ -424,7 +447,7 @@ section.main-navi .main-navi-bar ul li {
 
 body .wrap {
     margin: 0 auto;
-    margin-top: 50px;
+    /* margin-top: 50px; */
     /* background: green; */
 }
 body .wrap .middle{
@@ -533,7 +556,7 @@ body .wrap .photo .bb p {
 }
 body .wrap .photo .bb a{
     position: relative;
-    width: 0%;
+    width: 100%;
 }
 
 body .wrap .photo .bb a::before{
